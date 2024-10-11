@@ -1,0 +1,103 @@
+/* Reset des styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles du corps */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Couleur de fond douce */
+    color: #333; /* Couleur du texte */
+}
+
+/* Styles du conteneur principal */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Styles du titre principal */
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #2c3e50; /* Couleur du titre */
+}
+
+/* Styles de la carte de certification */
+.certification-card {
+    background-color: #fff; /* Fond blanc */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    padding: 20px;
+    transition: transform 0.2s; /* Animation douce */
+}
+
+/* Élévation au survol */
+.certification-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Styles du logo de certification */
+.certification-logo {
+    width: 1000px; /* Augmente la largeur à 150px */
+    height: auto; /* Assure que la hauteur est ajustée automatiquement pour garder les proportions */
+    margin-bottom: 20px; /* Marge en bas */
+}
+
+
+/* Styles des sections */
+.certification-header, .certification-content, .certification-skills, .certification-testimonial {
+    margin-bottom: 20px;
+}
+
+/* Styles des listes */
+ul {
+    list-style-type: disc; /* Puces */
+    padding-left: 20px; /* Indentation */
+}
+
+/* Lien retour à la page d'accueil */
+.back-home {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.back-home a {
+    background-color: #3498db; /* Couleur du bouton */
+    color: #fff; /* Couleur du texte */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Enlever le soulignement */
+    transition: background-color 0.3s;
+}
+
+.back-home a:hover {
+    background-color: #2980b9; /* Couleur plus foncée au survol */
+}
+
+/* Styles du pied de page */
+.footer {
+    background-color: #34495e; /* Couleur de fond du pied de page */
+    color: #fff; /* Couleur du texte */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-media {
+    margin: 10px 0;
+}
+
+.social-media a {
+    color: #fff; /* Couleur des icônes */
+    margin: 0 10px;
+    font-size: 20px; /* Taille des icônes */
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #3498db; /* Couleur au survol */
+}

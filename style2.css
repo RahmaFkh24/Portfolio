@@ -1,0 +1,106 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc; /* Couleur de fond douce */
+}
+
+.project-detail {
+    padding: 60px 20px; /* Ajout de remplissage autour de la section principale */
+}
+
+h1 {
+    text-align: center; /* Centre le titre principal */
+    margin-bottom: 40px; /* Espacement sous le titre */
+}
+
+section {
+    margin-bottom: 50px; /* Espacement entre les sections */
+    background-color: #fff; /* Fond blanc pour les sections */
+    padding: 30px; /* Ajout de remplissage */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Espacement entre les images */
+}
+
+.image-gallery img {
+    width: calc(50% - 10px); /* Ajuste la largeur des images */
+    max-width: 100%; /* Assure que l'image ne déborde pas */
+    border-radius: 8px; /* Coins arrondis */
+    transition: transform 0.3s; /* Animation d'agrandissement */
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05); /* Effet d'agrandissement au survol */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 3px solid #343a40; /* Bordure à gauche */
+    padding-left: 15px;
+    margin: 20px 0;
+    background-color: #f8f9fa; /* Fond légèrement différent pour le témoignage */
+    padding: 15px; /* Ajout de remplissage */
+    border-radius: 8px; /* Coins arrondis */
+}
+
+.back-home {
+    text-align: center; /* Centre le lien de retour */
+    margin-top: 30px; /* Espacement au-dessus */
+}
+
+.back-home a {
+    text-decoration: none;
+    color: #007bff; /* Couleur bleue pour le lien */
+    font-weight: bold; /* Texte en gras */
+    transition: color 0.3s; /* Transition pour la couleur */
+}
+
+.back-home a:hover {
+    color: #0056b3; /* Couleur au survol */
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #343a40; /* Couleur de fond du pied de page */
+    color: #fff; /* Couleur du texte du pied de page */
+}
+
+.social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #a91a1a; /* Couleur des icônes */
+    transition: color 0.3s; /* Transition pour la couleur des icônes */
+}
+
+.social-media a:hover {
+    color: #ffc107; /* Couleur au survol */
+}
+.footer .social-media {
+    display: flex;
+    justify-content: center; /* Centre les icônes */
+    margin-top: 10px; /* Espacement au-dessus des icônes */
+}
+
+.footer .social-media a {
+    margin: 0 15px; /* Espacement entre les icônes */
+    font-size: 24px; /* Taille des icônes */
+    color: #fff; /* Couleur des icônes */
+    transition: color 0.3s; /* Transition pour la couleur des icônes */
+}
+
+.footer .social-media a:hover {
+    color: #ffc107; /* Couleur au survol */
+}

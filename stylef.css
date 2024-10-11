@@ -1,0 +1,96 @@
+/* Reset des styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles du corps */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Couleur de fond douce */
+    color: #333; /* Couleur du texte */
+}
+
+/* Styles du conteneur principal */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Styles du titre principal */
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #2c3e50; /* Couleur du titre */
+    animation: fadeIn 1s; /* Animation d'apparition */
+}
+
+/* Animation fadeIn */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Styles de la carte de formation */
+.formation-card {
+    background-color: #fff; /* Fond blanc */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    padding: 20px;
+    transition: transform 0.2s; /* Animation douce */
+    margin-bottom: 20px; /* Espacement entre les cartes */
+}
+
+/* Élévation au survol */
+.formation-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Styles du logo de formation */
+.formation-logo {
+    width: 120px; /* Largeur du logo */
+    height: auto; /* Hauteur automatique */
+    margin-bottom: 20px; /* Marge en bas */
+}
+
+/* Styles des sections */
+.formation-header, .formation-content, .formation-skills, .formation-testimonial {
+    margin-bottom: 20px;
+}
+
+/* Styles des listes */
+ul {
+    list-style-type: disc; /* Puces */
+    padding-left: 20px; /* Indentation */
+}
+
+/* Styles du pied de page */
+.footer {
+    background-color: #34495e; /* Couleur de fond du pied de page */
+    color: #fff; /* Couleur du texte */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Styles des icônes de réseaux sociaux */
+.social-media {
+    margin: 10px 0;
+}
+
+.social-media a {
+    color: #fff; /* Couleur des icônes */
+    margin: 0 10px;
+    font-size: 20px; /* Taille des icônes */
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #3498db; /* Couleur au survol */
+}
